@@ -45,7 +45,7 @@ A planned pipeline processes plans from the 275-plan library into normalized tra
 Inputs: PDFs, DXFs, and image formats.  
 Outputs: landmark measurements, dimensional data, and normalized shape characteristics for the training corpus.
 
-Pipeline implementation is planned for the Plan Measurement Sprint; it is not fully built in this repository yet.
+Pipeline implementation is planned for a future iteration; it is not fully built in this repository yet.
 
 ## Upstream consumers of IBG
 
@@ -82,7 +82,7 @@ Out of scope:
 - ML infrastructure may later generalize to other components if second-consumer evidence supports it.
 - IBG and vectorizer evolution are intentionally decoupled through first-pass/second-pass separation.
 
-## Sprint 7.5 v3 audit classification
+## Component classification
 
 - **IBG files:** Library/foundational.
 - **TrainingDataCollector:** Scaffolded.
