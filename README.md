@@ -27,7 +27,7 @@ Typical flow:
 
 ### ML training layer
 
-The training layer includes three scaffolded components extracted during the IBG + ML Repo Extraction sprint:
+The training layer includes three scaffolded components extracted as part of the IBG + ML repository split:
 
 - **TrainingDataCollector**  
   Collects training examples from the 275-plan instrument library as plans are processed and measured through the plan-ingestion workflow.
@@ -50,7 +50,7 @@ Pipeline implementation is planned for a future iteration; it is not fully built
 ## Upstream consumers of IBG
 
 - **Body Outline Editor** (currently connected)
-- **Blueprint vectorizer v3.6** (connection to be verified)
+- **Blueprint vectorizer** (connection to be verified)
 - **Photo vectorizer blueprint path** (connection to be implemented in the PhotoVectorizerV2 blueprint extraction path)
 - **Future consumers** that produce first-pass body geometry and require authenticity-informed refinement
 
