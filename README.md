@@ -10,7 +10,7 @@ This repository is part of the Luthiers Toolbox ecosystem (`ltb-*` prefix conven
 
 ### InstrumentBodyGenerator (IBG)
 
-IBG takes first-pass body geometry output from upstream consumers and applies a second-pass correction informed by ML recognition of instrument type, shape, and brand.
+IBG takes first-pass body geometry output from upstream systems and applies a second-pass correction informed by ML recognition of instrument type, shape, and brand.
 
 IBG does **not**:
 - generate geometry from landmark points,
@@ -47,7 +47,7 @@ Outputs: landmark measurements, dimensional data, and normalized shape character
 
 Pipeline implementation is planned for a future iteration; it is not fully built in this repository yet.
 
-## Upstream consumers of IBG
+## Consumers of IBG
 
 - **Body Outline Editor** (currently connected)
 - **Blueprint vectorizer** (connection to be verified)
