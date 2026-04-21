@@ -30,7 +30,7 @@ Typical flow:
 The training layer includes three scaffolded components extracted during the IBG + ML Repo Extraction sprint:
 
 - **TrainingDataCollector**  
-  Collects training examples from the 275-plan instrument library as plans are processed through the Plan Measurement Sprint workflow.
+  Collects training examples from the 275-plan instrument library as plans are processed and measured through the plan-ingestion workflow.
 
 - **GeometryCoachV2**  
   Core recognition/coaching logic. Produces classification output (instrument type, shape family, brand) and correction guidance consumed by IBG.
@@ -51,7 +51,7 @@ Pipeline implementation is planned for the Plan Measurement Sprint; it is not fu
 
 - **Body Outline Editor** (currently connected)
 - **Blueprint vectorizer v3.6** (connection to be verified)
-- **Photo vectorizer blueprint path** (connection to be implemented via `PhotoVectorizerV2.extract(source_type="blueprint")`)
+- **Photo vectorizer blueprint path** (connection to be implemented in the PhotoVectorizerV2 blueprint extraction path)
 - **Future consumers** that produce first-pass body geometry and require authenticity-informed refinement
 
 ## Scope boundary
